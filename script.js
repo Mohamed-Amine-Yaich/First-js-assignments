@@ -38,7 +38,9 @@ const playRound = (playerSelection, computerSelection) => {
 const playerSelection = playerSelectionFunction();
 const computerSelection = computerPlay();
 console.log("game of one round go..");
-console.log(playRound(playerSelection, computerSelection)) */ const game =
+console.log(playRound(playerSelection, computerSelection)) */ 
+
+const game =
   () => {
     console.log(
       "the game is starting you have 5 round to beat the computer go.."
